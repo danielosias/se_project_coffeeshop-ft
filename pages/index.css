@@ -146,6 +146,49 @@
   line-height: 30px;
 }
 
+.reservation {
+  padding: 100px 0 215px;
+}
+
+.reservation__title {
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+.reservation__form{
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 15px 20px;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
